@@ -1,0 +1,119 @@
+body {
+  background-color: white !important;
+}
+
+.posts-not-found > p {
+  display: none !important;
+}
+
+#main > form {
+  display: none;
+}
+
+.site-logo-image {
+  padding-top: 50px;
+  width: 80% !important;
+}
+
+.content-top-in {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 959px) {
+  .site-logo-image {
+    width: 100% !important;
+  }
+  .content-top-in {
+    width: 80% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .content {
+    width: 80% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .site-logo-image {
+    width: 100% !important;
+  }
+  .content-top-in {
+    width: 80% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .content {
+    width: 80% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.wp-block-search__button {
+  border: none;
+  background: white;
+  margin-left: 0em;
+  background: none;
+}
+
+#wp-block-search__input-1 {
+  border-radius: 3em;
+  background-color: #ebf0ed;
+  border-color: white;
+  text-indent: 0.8em;
+  padding: 5px;
+}
+
+.cat-label {
+  display: none;
+}
+
+.clear-results {
+  color: white;
+  box-shadow: none;
+  display: none;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+}
+
+.posts-not-found {
+  text-align: center;
+}
+
+#main {
+  text-align: center;
+  padding-top: 0px;
+}
+
+.link {
+  text-align: center;
+  text-decoration: none;
+  color: gray;
+}
+
+::placeholder {
+  color: #b2b7bf;
+  font-size: 90%;
+}
+
+#menu-item-2664 {
+  border: none !important;
+}
+
+#menu-item-2668 {
+  border: none !important;
+}
